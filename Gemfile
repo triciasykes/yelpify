@@ -23,7 +23,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'pg', '~> 0.18.2', group: :production
-gem 'carrierwave'
+gem 'carrierwave_direct'
 gem 'fog-aws'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem "aws-sdk-s3", require: false

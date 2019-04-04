@@ -1,4 +1,5 @@
 class ImageUploader < CarrierWave::Uploader::Base
+  include CarrierWaveDirect::Uploader
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
@@ -9,7 +10,7 @@ class ImageUploader < CarrierWave::Uploader::Base
     storage :fog
   else
     storage :file
-  end  
+  end
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
