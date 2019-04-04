@@ -24,8 +24,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'pg', group: :production
 gem 'carrierwave'
-gem "fog-aws"
+gem 'fog-aws'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem "aws-sdk-s3", require: false
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
